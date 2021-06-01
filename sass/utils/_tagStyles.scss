@@ -1,0 +1,23 @@
+.html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.body {
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  background: $background-core-cl;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

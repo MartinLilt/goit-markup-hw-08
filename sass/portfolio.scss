@@ -1,0 +1,18 @@
+// Website core root styles
+@import "./utils/variables";
+// Website tag styles
+@import "./utils/tagStyles";
+// Website placeholders
+@import "./utils/placeholders";
+// Website mixins
+@import "./utils/mixins";
+
+// Website #portfolio core position containers
+@import "./components/portfolio-components/core-containers";
+
+// Website #portfolio header menu
+@import "./components/portfolio-components/portfolio-header";
+// Website #portfolio works category menu
+@import "./components/portfolio-components/work-category";
+// Website #index footer menu
+@import "./components/index-footer";

@@ -1,0 +1,45 @@
+@mixin display($flex: flex) {
+  display: $flex;
+}
+@mixin list($margin: 0, $padding: 0, $li: none, $text: none) {
+  margin: $margin;
+  padding: $padding;
+  list-style: $li;
+  text-decoration: $text;
+}
+@mixin auto-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+@mixin default-viewport {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@mixin visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+@mixin button-style {
+  border: none;
+  cursor: pointer;
+  background: $accent-color-button;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: $font-main;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  @include display;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: $core-color;
+}
