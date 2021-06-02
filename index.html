@@ -25,11 +25,17 @@
   </head>
   <body class="body">
     <header>
-      <div class="header-container">
+      <div class="container">
       <div class="header-flex">
-        <a class="header-flex-logo header-logo-second-color" href="./index.html"
-          ><span class="header-logo-first-color">Web</span>Studio</a
+        <a class="header-flex-logo header-logo-second-color" href="./index.html"><span class="header-logo-first-color">Web</span>Studio</a
         >
+        <a href="#" class="header-navigation-button" data-menu-button>
+          <svg width="40" height="40"
+          aria-expanded="false"
+          aria-label="Переключатель мобильного меню">
+          <use class="icon-menu" href="./images/mobile-vector.svg#icon-menu"></use>
+          <use class="icon-close" href="./images/mobile-vector.svg#icon-close"></use>
+        </svg></a>
         <nav>
           <ul class="header-flex-nav">
             <li class="mr-li">
@@ -153,7 +159,6 @@
               class="img"
                 src="./images/img-4.jpg"
                 alt="Проджект дизайнер"
-                width="270"
               />
               <div class="our_team-link_box">
                 <h3 class="our_team-link_title">Игорь Демьяненко</h3>
@@ -191,7 +196,7 @@
               </div>
             </li>
             <li class="our_team-box">
-              <img class="img" src="./images/img-5.jpg" alt="Верстальщик" width="270" />
+              <img class="img" src="./images/img-5.jpg" alt="Верстальщик" />
               <div class="our_team-link_box">
                 <h3 class="our_team-link_title">Ольга Репина</h3>
                 <p class="our_team-link_text" lang="en">Frontend Developer</p>
@@ -228,7 +233,7 @@
               </div>
             </li>
             <li class="our_team-box">
-              <img class="img" src="./images/img-6.jpg" alt="Маркетолог" width="270" />
+              <img class="img" src="./images/img-6.jpg" alt="Маркетолог" />
               <div class="our_team-link_box">
                 <h3 class="our_team-link_title">Николай Тарасов</h3>
                 <p class="our_team-link_text" lang="en">Marketing</p>
@@ -265,7 +270,7 @@
               </div>
             </li>
             <li class="our_team-box">
-              <img class="img" src="./images/img-7.jpg" alt="UI дизайнер" width="270" />
+              <img class="img" src="./images/img-7.jpg" alt="UI дизайнер" />
               <div class="our_team-link_box">
                 <h3 class="our_team-link_title">Михаил Ермаков</h3>
                 <p class="our_team-link_text" lang="en">UI Designer</p>
@@ -422,6 +427,7 @@
             <label class="footer-lead_field">
               <input type="email" class="footer-lead_input" name="mail" placeholder="E-mail">
             </label>
+            <div class="footer-button_box">
             <button
             class="footer-button"
             type="submit">
@@ -430,6 +436,7 @@
               <use href="./images/icons/icon-send.svg#icon-send"></use>
             </svg>
           </button>
+        </div>
         </div>
           </div>
         </div>
@@ -494,6 +501,58 @@
       </div>
     </div>
   </div>
+    <div class="header-modal" data-menu>
+      <div class="header-modal-box">
+    <nav>
+      <ul class="header-modal-flex-nav">
+        <li class="mr-modal-li">
+          <a class="header-modal-nav" href="./index.html">Студия</a>
+        </li>
+        <li class="mr-modal-li">
+          <a class="header-modal-nav" href="./pages/portfolio.html"
+            >Портфолио</a
+          >
+        </li>
+        <li class="mr-modal-li">
+          <a class="header-modal-nav" href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="header-modal-flex-contact">
+      <li class="mr-modal-contact">
+        <a class="header-modal-contact-number" href="tel:+380961111111">
+          +38 096 111 11 11</a
+        >
+      </li>
+      <li class="mr-modal-contact">
+        <a
+          class="header-modal-contact"
+          href="mailto:info@devstudio.com"
+        >
+          info@devstudio.com</a
+        >
+      </li>
+    </ul>
+    <ul class="header-modal-social-box">
+      <li class="header-modal-social-contact">
+        <a href="#"></a>
+        Instagram</li>
+        <span class="drob"></span>
+        <li class="header-modal-social-contact">
+          <a href="#"></a>
+          Twitter</li>
+          <span class="drob"></span>
+          <li class="header-modal-social-contact">
+            <a href="#"></a>
+            Facebook</li>
+            <span class="drob"></span>
+            <li class="header-modal-social-contact">
+              <a href="#"></a>
+              LinkedIn</li>
+    </ul>
+  </div>
+  </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

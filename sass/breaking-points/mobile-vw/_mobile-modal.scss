@@ -1,0 +1,97 @@
+.header-modal {
+  display: none;
+  position: absolute;
+  overflow-y: scroll;
+  width: 100%;
+  background-color: $core-color;
+  top: 60px;
+  left: 0;
+
+  &.is-open {
+    display: block;
+  }
+}
+.header-modal-box {
+  padding: 0px 40px 48px 40px;
+}
+.header-modal-flex-nav {
+  @include list;
+}
+.header-modal-nav {
+  @include list;
+}
+.mr-modal-li {
+  @include list;
+  margin-bottom: 32px;
+}
+.mr-modal-li:nth-child(3) {
+  margin-bottom: 302px;
+}
+.mr-modal-contact {
+  @include list;
+  margin-bottom: 32px;
+}
+.mr-modal-contact:nth-child(2) {
+  margin-bottom: 64px;
+}
+.header-modal-flex-contact {
+  @include list;
+}
+.header-modal-contact,
+.header-modal-contact-number {
+  @include list;
+}
+.header-modal-social-box {
+  display: flex;
+  @include list;
+}
+.header-modal-social-contact {
+  @include list;
+  display: flex;
+  flex-wrap: wrap;
+}
+.drob {
+  width: 1px;
+  height: 22px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(33, 33, 33, 0.2);
+}
+.header-modal-social-contact {
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: $accent-color;
+}
+.header-modal-nav {
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  color: $main-text-color;
+}
+.header-modal-contact {
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: $second-color;
+}
+.header-modal-contact-number {
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  color: $accent-color;
+}
