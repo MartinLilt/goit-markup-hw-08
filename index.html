@@ -29,14 +29,17 @@
       <div class="header-flex">
         <a class="header-flex-logo header-logo-second-color" href="./index.html"><span class="header-logo-first-color">Web</span>Studio</a
         >
-        <a href="#" class="header-navigation-button" data-menu-button>
+        <a href="#" class="header-navigation-button" data-open>
           <svg width="40" height="40"
-          aria-expanded="false"
           aria-label="Переключатель мобильного меню">
           <use class="icon-menu" href="./images/mobile-vector.svg#icon-menu"></use>
-          <use class="icon-close" href="./images/mobile-vector.svg#icon-close"></use>
         </svg></a>
-        <div class="mobile-menu">
+        <div class="mobile-menu" data-modal-menu>
+          <a href="#" class="mobile-navigation-button" data-close>
+            <svg class="close-menu-help" width="40" height="40"
+          aria-label="Переключатель мобильного меню">
+          <use class="icon-menu" href="./images/mobile-vector.svg#icon-close"></use>
+        </svg></a>
           <div class="content">
           <ul class="navigation">
             <li class="navigation-category">
@@ -55,14 +58,14 @@
             <li class="contact-category">
               <a
                 class="accent-contact"
-                href="mailto:info@devstudio.com"
+                href="tel:+380961111111"
               >
-                info@devstudio.com</a
+                +38 096 111 11 11</a
               >
             </li>
             <li class="contact-category">
-              <a class="contact" href="tel:+380961111111">
-                +38 096 111 11 11</a
+              <a class="contact" href="mailto:info@devstudio.com">
+                info@devstudio.com</a
               >
             </li>
           </ul>
@@ -198,7 +201,8 @@
             <li class="our_team-box">
               <img
               class="img"
-                src="./images/img-4.jpg"
+              srcset=""
+                src=""
                 alt="Проджект дизайнер"
               />
               <div class="our_team-link_box">

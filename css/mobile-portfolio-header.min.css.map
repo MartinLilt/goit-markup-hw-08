@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/breaking-points/mobile-vw/portfolio-mobile/mobile-portfolio-header.scss"
+    ],
+    "names": [],
+    "file": "mobile-portfolio-header.min.css"
+}
