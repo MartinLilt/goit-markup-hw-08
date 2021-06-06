@@ -35,11 +35,10 @@
   flex-wrap: wrap;
 }
 .social-drob {
-  height: 22px;
-  width: 1px;
-  padd
-  display: block;
-  color: rgba(33, 33, 33, 0.2);
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
 }
 .social-link {
   @include list;
