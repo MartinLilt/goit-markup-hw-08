@@ -1361,87 +1361,48 @@
   background-color: #188ce8;
 }
 
-.header-modal {
-  display: none;
-  position: absolute;
-  width: 100%;
-  background-color: blue;
+.mobile-menu {
+  position: fixed;
   top: 0;
   left: 0;
+  overflow-y: scroll;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 999;
 }
 
-.header-modal.is-open {
-  display: block;
-}
-
-.header-modal-box {
+.mobile-menu .content {
   padding: 0px 40px 48px 40px;
 }
 
-.header-modal-flex-nav {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-
-.header-modal-nav {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-
-.mr-modal-li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  margin-bottom: 32px;
-}
-
-.mr-modal-li:nth-child(3) {
+.navigation {
   margin-bottom: 302px;
 }
 
-.mr-modal-contact {
+.navigation-category {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
+}
+
+.navigation-category:not(:last-child) {
   margin-bottom: 32px;
 }
 
-.mr-modal-contact:nth-child(2) {
-  margin-bottom: 64px;
-}
-
-.header-modal-flex-contact {
+.contact-category {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
 }
 
-.header-modal-contact,
-.header-modal-contact-number {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
+.contact-category:not(:last-child) {
+  margin-bottom: 32px;
 }
 
-.header-modal-social-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-
-.header-modal-social-contact {
+.social {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1453,22 +1414,19 @@
       flex-wrap: wrap;
 }
 
-.drob {
-  width: 1px;
+.social-drob {
   height: 22px;
-  margin-left: 10px;
-  margin-right: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  background-color: rgba(33, 33, 33, 0.2);
+  width: 1px;
+  display: block;
+  color: rgba(33, 33, 33, 0.2);
 }
 
-.header-modal-social-contact {
+.social-link {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
@@ -1476,34 +1434,43 @@
   color: #2196f3;
 }
 
-.header-modal-nav {
+.mobile-menu .navigation {
+  margin: none;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 40px;
-  line-height: 1.18;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: #212121;
 }
 
-.header-modal-contact {
+.mobile-menu .accent-contact {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-
-.header-modal-contact-number {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 34px;
-  line-height: 1.18;
+  line-height: 40px;
   letter-spacing: 0.02em;
   color: #2196f3;
+}
+
+.mobile-menu .contact {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .header-flex {
@@ -2003,152 +1970,6 @@
   display: flex;
   margin-left: 11px;
   fill: #ffffff;
-}
-
-.header-modal {
-  display: none;
-  position: absolute;
-  overflow-y: scroll;
-  width: 100%;
-  background-color: #ffffff;
-  top: 60px;
-  left: 0;
-}
-
-.header-modal.is-open {
-  display: block;
-}
-
-.header-modal-box {
-  padding: 0px 40px 48px 40px;
-}
-
-.header-modal-flex-nav {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-
-.header-modal-nav {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-
-.mr-modal-li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  margin-bottom: 32px;
-}
-
-.mr-modal-li:nth-child(3) {
-  margin-bottom: 302px;
-}
-
-.mr-modal-contact {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  margin-bottom: 32px;
-}
-
-.mr-modal-contact:nth-child(2) {
-  margin-bottom: 64px;
-}
-
-.header-modal-flex-contact {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-
-.header-modal-contact,
-.header-modal-contact-number {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-
-.header-modal-social-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-
-.header-modal-social-contact {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.drob {
-  width: 1px;
-  height: 22px;
-  margin-left: 10px;
-  margin-right: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  background-color: rgba(33, 33, 33, 0.2);
-}
-
-.header-modal-social-contact {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.22;
-  letter-spacing: 0.02em;
-  color: #2196f3;
-}
-
-.header-modal-nav {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 1.18;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-
-.header-modal-contact {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-
-.header-modal-contact-number {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 34px;
-  line-height: 1.18;
-  letter-spacing: 0.02em;
-  color: #2196f3;
 }
 
 .container {
