@@ -7,12 +7,15 @@
 // Website mixins
 @import "./utils/mixins";
 
+@import './breaking-points/mobile-vw/portfolio-mobile/index-portfolio-mobile';
+
+
 // Website #portfolio core position containers
-@import "./components/portfolio-components/core-containers";
+//@import "./components/portfolio-components/core-containers";
 
 // Website #portfolio header menu
-@import "./components/portfolio-components/portfolio-header";
+//@import "./components/portfolio-components/portfolio-header";
 // Website #portfolio works category menu
-@import "./components/portfolio-components/work-category";
+//@import "./components/portfolio-components/work-category";
 // Website #index footer menu
-@import "./components/index-footer";
+//@import "./components/index-footer";

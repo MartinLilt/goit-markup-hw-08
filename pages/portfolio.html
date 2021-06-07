@@ -25,45 +25,92 @@
   </head>
   <body class="body">
     <header>
-      <div class="portfolio_header-container">
-        <div class="portfolio_header-flex_container">
-          <a class="portfolio_header-logo_second_color" href="../index.html"
-            ><span class="portfolio_header-logo_first_color">Web</span>Studio</a
+      <header>
+        <div class="container">
+        <div class="header-flex">
+          <a class="header-flex-logo header-logo-second-color" href="../index.html"><span class="header-logo-first-color">Web</span>Studio</a
           >
-          <nav>
-            <ul class="portfolio_header-flex_nav">
-              <li class="portfolio_header-link">
-                <a class="portfolio_header-link_box" href="../index.html"
-                  >Студия</a
-                >
+          <a href="#" class="header-navigation-button" data-open>
+            <svg width="40" height="40"
+            aria-label="Переключатель мобильного меню">
+            <use class="icon-menu" href="../images/mobile-vector.svg#icon-menu"></use>
+          </svg></a>
+          <div class="mobile-menu" data-modal-menu>
+            <a href="#" class="mobile-navigation-button" data-close>
+              <svg class="close-menu-help" width="40" height="40"
+            aria-label="Переключатель мобильного меню">
+            <use class="icon-menu" href="../images/mobile-vector.svg#icon-close"></use>
+          </svg></a>
+            <div class="content">
+            <ul class="navigation">
+              <li class="navigation-category">
+                <a class="navigation-category" href="../index.html">Студия</a>
               </li>
-              <li class="portfolio_header-link">
-                <a
-                  class="portfolio_header-link_box"
-                  href="../pages/portfolio.html"
+              <li class="navigation-category">
+                <a class="navigation-category" href="../pages/portfolio.html"
                   >Портфолио</a
                 >
               </li>
-              <li class="portfolio_header-link">
-                <a class="portfolio_header-link_box" href="#">Контакты</a>
+              <li class="navigation-category">
+                <a class="navigation-category" href="#">Контакты</a>
+              </li>
+            </ul>
+            <ul class="contact">
+              <li class="contact-category">
+                <a
+                  class="accent-contact"
+                  href="tel:+380961111111"
+                >
+                  +38 096 111 11 11</a
+                >
+              </li>
+              <li class="contact-category">
+                <a class="contact" href="mailto:info@devstudio.com">
+                  info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="social">
+            <li><a class="social-link" href="#">Instagram</a></li>
+            <span class="social-drob"></span>
+            <li><a  class="social-link" href="#">Twitter</a></li>
+            <span class="social-drob"></span>
+            <li><a class="social-link" href="#">Facebook</a></li>
+            <span class="social-drob"></span>
+            <li><a class="social-link" href="#">LinkedIn</a></li>
+          </ul>
+          </div>
+        </div>
+          <nav>
+            <ul class="header-flex-nav">
+              <li class="mr-li">
+                <a class="header-nav" href="../index.html">Студия</a>
+              </li>
+              <li class="mr-li">
+                <a class="header-nav" href="../pages/portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="mr-li">
+                <a class="header-nav" href="#">Контакты</a>
               </li>
             </ul>
           </nav>
-          <ul class="portfolio_header_contact_box">
-            <li class="portfolio_header-link">
+          <ul class="header-flex-contact">
+            <li class="mr-li">
               <a
-                class="portfolio_header-link_supbox"
+                class="header-contact"
                 href="mailto:info@devstudio.com"
               >
-                <svg class="portfolio_header-link_icon" width="16" height="12">
+                <svg class="links-icon" width="16" height="12">
                   <use href="../images/icons.svg#icon-mail"></use>
                 </svg>
                 info@devstudio.com</a
               >
             </li>
-            <li class="portfolio_header-link">
-              <a class="portfolio_header-link_supbox" href="tel:+380961111111">
-                <svg class="portfolio_header-link_icon" width="10" height="16">
+            <li class="mr-li">
+              <a class="header-contact" href="tel:+380961111111">
+                <svg class="links-icon" width="10" height="16">
                   <use href="../images/icons.svg#icon-phone"></use>
                 </svg>
                 +38 096 111 11 11</a
@@ -72,7 +119,7 @@
           </ul>
         </div>
       </div>
-    </header>
+      </header>
     <main>
       <section>
         <div class="portfolio_works-container">
@@ -109,9 +156,13 @@
           <ul class="portfolio_works-flex_container">
             <li class="portfolio_works-category_box">
               <div class="portfolio_works-img_box">
-                <img
-                  class="img"
-                  src="../images/img-8.jpg"
+                <img 
+                srcset="../images/portfolio-works/1-category/1-category-354.jpg 354w, 
+                ../images/portfolio-works/1-category/1-category-2x.jpg 708w, 
+                ../images/portfolio-works/1-category/1-category-3x.jpg 1062w" 
+              sizes="270px"
+                  class="img img-responsive"
+                  src="../images/portfolio-works/1-category/1-category-354.jpg"
                   alt="Технокряк"
                   width="370"
                 />
@@ -129,7 +180,7 @@
             <li class="portfolio_works-category_box">
               <div class="portfolio_works-img_box">
                 <img
-                  class="img"
+                  class="img img-responsive"
                   src="../images/img-9.jpg "
                   alt="Постер New Orlean vs Golden Star"
                   width="370"
@@ -150,7 +201,7 @@
             <li class="portfolio_works-category_box">
               <div class="portfolio_works-img_box">
                 <img
-                  class="img"
+                  class="img img-responsive"
                   src="../images/img-10.jpg"
                   alt="Ресторан Seafood"
                   width="370"
@@ -169,7 +220,7 @@
             <li class="portfolio_works-category_box">
               <div class="portfolio_works-img_box">
                 <img
-                  class="img"
+                  class="img img-responsive"
                   src="../images/img-11.jpg"
                   alt="Проект Prime"
                   width="370"
@@ -188,7 +239,7 @@
             <li class="portfolio_works-category_box">
               <div class="portfolio_works-img_box">
                 <img
-                  class="img"
+                  class="img img-responsive"
                   src="../images/img-12.jpg"
                   alt="Проект Boxes"
                   width="370"
@@ -207,7 +258,7 @@
             <li class="portfolio_works-category_box">
               <div class="portfolio_works-img_box">
                 <img
-                  class="img"
+                  class="img img-responsive"
                   src="../images/img-13.jpg"
                   alt="Inspiration has no Borders"
                   width="370"
@@ -228,7 +279,7 @@
             <li class="portfolio_works-category_box">
               <div class="portfolio_works-img_box">
                 <img
-                  class="img"
+                  class="img img-responsive"
                   src="../images/img-14.jpg"
                   alt="Дизайн"
                   width="370"
@@ -249,7 +300,7 @@
             <li class="portfolio_works-category_box">
               <div class="portfolio_works-img_box">
                 <img
-                  class="img"
+                  class="img img-responsive"
                   src="../images/img-15.jpg"
                   alt="Маркетинг"
                   width="370"
@@ -268,7 +319,7 @@
             <li class="portfolio_works-category_box">
               <div class="portfolio_works-img_box">
                 <img
-                  class="img"
+                  class="img img-responsive"
                   src="../images/img-16.jpg"
                   alt="Приложение"
                   width="370"
@@ -368,5 +419,6 @@
         </div>
       </div>
     </footer>
+    <script src="../js/mobile-menu.js"></script>
   </body>
 </html>
