@@ -6,10 +6,21 @@
     @include list;
     flex-wrap: wrap;
     margin-bottom: 40px;
+
+    @media screen and (min-width: 768px) {
+        flex-wrap: nowrap;
+        margin-bottom: 30px;
+        justify-content: center;
+      }
   }
   .portfolio_works-button_box {
     margin-bottom: 15px;
     margin-right: 8px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+        margin-right: 8px;
+      }
   }
   .portfolio_works-button {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -42,6 +53,16 @@
     @include list;
     flex-wrap: wrap;
   }
+  .portfolio_works-category_box:nth-child(2n) {
+    @media screen and (min-width: 768px) {
+      margin-right: 0;
+    }
+  }
+  .portfolio_works-category_box:nth-child(n+9) {
+    @media screen and (min-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
   .portfolio_works-category_box {
     width: 100%;
     margin-bottom: 30px;
@@ -60,6 +81,11 @@
       border: 1px solid #eeeeee;
       box-sizing: border-box;
     }
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+        margin-right: 30px;
+      }
   }
   .portfolio_works-flex_container .portfolio_works-category_box:nth-child(9) {
       margin-bottom: 0;
@@ -91,9 +117,9 @@
       color: $core-color;
     }
 
-    @media screen and (min-width: 320px) {
-      font-size: 14px;
-    }
+    @media screen and (min-width: 480px) {
+        font-size: 18px;
+      }
   }
   .portfolio_works-content_box {
     padding: 20px 24px 20px 24px;

@@ -7,23 +7,22 @@
   @include list;
   margin-right: 93px;
 
-  @media screen and (min-width: 320px) {
+  @media screen and (min-width: 768px) {
     padding-top: 16px;
     padding-bottom: 16px;
     margin: 0;
   }
 }
 .header-flex-nav {
-  @include display;
   @include list;
-  padding: 32px 0px 32px 0px;
 
   & .mr-li + .mr-li {
     margin-left: 50px;
   }
 
-  @media screen and (min-width: 320px) {
-    display: none;
+  @media screen and (min-width: 768px) {
+      @include display;
+      margin-left: 88px;
   }
 }
 .header-nav {
@@ -48,8 +47,8 @@
     color: $main-text-color;
   }
 
-  @media screen and (min-width: 320px) {
-    display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
   }
 }
 .header-navigation-button {
@@ -63,8 +62,8 @@
     fill: $accent-color;
   }
 
-  @media screen and (min-width: 320px) {
-    display: flex;
+  @media screen and (min-width: 768px) {
+    display: none;
   }
 }
 .mobile-menu.is-open {
@@ -88,16 +87,15 @@
   color: $accent-color;
 }
 .header-flex-contact {
-  @include display;
+    flex-direction: column;
   @include list;
   margin-left: auto;
 
-  @media screen and (min-width: 320px) {
-    display: none;
+  @media screen and (min-width: 768px) {
+      @include display;
   }
 }
 .header-contact {
-  @include display;
   @include list($margin: none, $padding: none);
   align-items: center;
 
@@ -108,23 +106,25 @@
   &:focus {
     color: $accent-color;
   }
-}
-.header-contact {
-  @media screen and (min-width: 320px) {
-    display: none;
+  @media screen and (min-width: 768px) {
+      @include display;
+      margin-bottom: 10px;
   }
+}
+.mr-li:nth-child(2) .header-contact {
+    margin-bottom: 0;
 }
 .links-icon {
   margin-right: 10px;
   fill: currentColor;
 }
 .header-contact {
-  color: $second-color;
   font-family: $font-main;
-  font-size: 14px;
   font-weight: 500;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 14px;
   letter-spacing: 0.02em;
+  color: $second-color;
 }
 .header-logo-second-color {
   font-family: $font-logo;
