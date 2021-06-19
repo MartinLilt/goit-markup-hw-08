@@ -14,7 +14,7 @@
   }
 }
 .header-flex-nav {
-  @include list;
+  @include list($margin: none);
 
   & .mr-li + .mr-li {
     margin-left: 50px;
