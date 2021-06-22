@@ -2,28 +2,9 @@
 @import "./utils/variables";
 // Website tag styles
 @import "./utils/tagStyles";
-// Website placeholders
-@import "./utils/placeholders";
 // Website mixins
 @import "./utils/mixins";
 
 @import "./breaking-points/mobile-vw/index-mobile/index-mobile";
 @import './breaking-points/tab-vw/index-tab/index-tab';
 @import './breaking-points/full-vw/index-full/index-full';
-
-// Website #index header
-//@import "./components/index-header";
-// Website #index hero menu
-//@import "./components/hero-menu";
-// Website #index advantages menu
-//@import "./components/advantages-menu";
-// Website #index work menu
-//@import "./components/work-menu";
-// Website #index our-team menu
-//@import "./components/ourTeam-menu";
-// Website #index regular-customers menu
-//@import "./components/regularCustomers-menu";
-// Website #index footer menu
-//@import "./components/index-footer";
-// Website #index modal menu
-//@import "./components/modal-menu";

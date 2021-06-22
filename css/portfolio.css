@@ -1039,7 +1039,7 @@
 }
 
 .header-flex-nav {
-  margin: 0;
+  margin: none;
   padding: 0;
   list-style: none;
   text-decoration: none;
@@ -1978,7 +1978,7 @@
 }
 
 .header-flex-nav {
-  margin: 0;
+  margin: none;
   padding: 0;
   list-style: none;
   text-decoration: none;
