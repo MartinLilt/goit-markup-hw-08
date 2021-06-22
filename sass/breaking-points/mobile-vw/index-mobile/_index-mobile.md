@@ -1,4 +1,4 @@
-@import "./";
+@import "../../index-elements/index-containers";
 
 @import "./mobile-header";
 @import "./mobile-hero-menu";

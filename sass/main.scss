@@ -5,6 +5,4 @@
 // Website mixins
 @import "./utils/mixins";
 
-@import "./breaking-points/mobile-vw/index-mobile/index-mobile";
-@import './breaking-points/tab-vw/index-tab/index-tab';
-@import './breaking-points/full-vw/index-full/index-full';
+@import "./breaking-points/index-elements/index-main-styles";
