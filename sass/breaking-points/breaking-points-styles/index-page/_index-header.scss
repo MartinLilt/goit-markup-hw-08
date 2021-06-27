@@ -148,22 +148,21 @@
     margin-bottom: 10px;
   }
 
-  @media screen and (min-width: 768px) {
-    .mr-li:nth-child(2) .header-contact {
-      margin-bottom: 0;
-
-      @media screen and (min-width: 1200px) {
-        margin-right: 0;
-      }
-    }
-  }
-
   @media screen and (min-width: 1200px) {
     @include display;
     margin-bottom: 0px;
     margin-right: 30px;
     padding-top: 32px;
     padding-bottom: 32px;
+  }
+}
+.mr-li:nth-child(2) .header-contact {
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 0;
   }
 }
 .links-icon {
