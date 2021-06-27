@@ -1,100 +1,94 @@
 .hero_menu-container {
-  margin-left: auto;
-  margin-right: auto;
-  background: $background-second-cl;
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("core-bg-mobile.webp");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
   @media screen and (min-width: 320px) {
     padding-top: 118px;
     padding-bottom: 118px;
   }
 
-  @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero_menu-container {
+  @media screen and (min-width: 320px) {
+    margin-left: auto;
+    margin-right: auto;
+    background: $background-second-cl;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../../../images/bg-img/webp/core-bg-mobile.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url("core-bg-mobile2x.webp");
+        url(../../../../images/bg-img/webp/core-bg-mobile2x.webp);
     }
   }
-
+}
+.hero_menu-container {
   @media screen and (min-width: 768px) {
-    .hero_menu-container {
-      margin-left: auto;
-      margin-right: auto;
-      background: $background-second-cl;
+    margin-left: auto;
+    margin-right: auto;
+    background: $background-second-cl;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../../../images/bg-img/webp/core-bg-tab.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url("core-bg-tab.webp");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-
-      @media (min-device-pixel-ratio: 2),
-        (-webkit-min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-        .hero_menu-container {
-          background-image: linear-gradient(
-              to right,
-              rgba(47, 48, 58, 0.4),
-              rgba(47, 48, 58, 0.4)
-            ),
-            url("core-bg-tab2x.webp");
-        }
-      }
+        url(../../../../images/bg-img/webp/core-bg-tab2x.webp);
     }
   }
-
+}
+.hero_menu-container {
   @media screen and (min-width: 1200px) {
     padding-top: 200px;
     padding-bottom: 200px;
   }
 
   @media screen and (min-width: 1200px) {
-    .hero_menu-container {
-      margin-left: auto;
-      margin-right: auto;
-      background: $background-second-cl;
+    margin-left: auto;
+    margin-right: auto;
+    background: $background-second-cl;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../../../images/bg-img/webp/core-bg-full.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url("core-bg-full.webp");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-
-      @media (min-device-pixel-ratio: 2),
-        (-webkit-min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-        .hero_menu-container {
-          background-image: linear-gradient(
-              to right,
-              rgba(47, 48, 58, 0.4),
-              rgba(47, 48, 58, 0.4)
-            ),
-            url("core-bg-full2x.webp");
-        }
-      }
+        url(../../../../images/bg-img/webp/core-bg-full2x.webp);
     }
   }
 }

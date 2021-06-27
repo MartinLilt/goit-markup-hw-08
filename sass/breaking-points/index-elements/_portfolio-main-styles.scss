@@ -1,14 +1,9 @@
-@import "./index-containers";
+@import "./portfolio-containers";
 
-@import "../breaking-points-styles/index-page/index-header";
-@import "../breaking-points-styles/index-page/index-hero-section";
-@import "../breaking-points-styles/index-page/index-advantages-section";
-@import "../breaking-points-styles/index-page/index-work-section";
-@import "../breaking-points-styles/index-page/index-team-section";
-@import "../breaking-points-styles/index-page/index-customers-section";
-@import "../breaking-points-styles/index-page/index-footer";
-@import "../breaking-points-styles/index-page/index-lead-section";
-@import "../breaking-points-styles/index-page/index-modal";
+@import "../breaking-points-styles/portfolio-page/portfolio-header";
+@import "../breaking-points-styles/portfolio-page/portfolio-works";
+@import "../breaking-points-styles/portfolio-page/portfolio-footer";
+@import "../breaking-points-styles/portfolio-page/portfolio-modal";
 
 //@import "../mobile-vw/index-mobile/mobile-header";
 //@import "../mobile-vw/index-mobile/mobile-hero-menu";
