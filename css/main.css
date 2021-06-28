@@ -569,8 +569,8 @@
     margin-left: auto;
     margin-right: auto;
     background: #2f303a;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../../../images/bg-img/webp/core-bg-mobile.webp);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../../../images/bg-img/webp/core-bg-mobile.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../../../images/bg-img/jpg/core-bg-mobile.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../../../images/bg-img/jpg/core-bg-mobile.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -579,8 +579,8 @@
 
 @media screen and (min-width: 320px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
   .hero_menu-container {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../../../images/bg-img/webp/core-bg-mobile2x.webp);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../../../images/bg-img/webp/core-bg-mobile2x.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../../../images/bg-img/jpg/core-bg-mobile2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../../../images/bg-img/jpg/core-bg-mobile2x.jpg");
   }
 }
 
@@ -589,8 +589,8 @@
     margin-left: auto;
     margin-right: auto;
     background: #2f303a;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../../../images/bg-img/webp/core-bg-tab.webp);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../../../images/bg-img/webp/core-bg-tab.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../../../images/bg-img/jpg/core-bg-tab.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../../../images/bg-img/jpg/core-bg-tab.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -599,8 +599,8 @@
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero_menu-container {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../../../images/bg-img/webp/core-bg-tab2x.webp);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../../../images/bg-img/webp/core-bg-tab2x.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../../../images/bg-img/jpg/core-bg-tab2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../../../images/bg-img/jpg/core-bg-tab2x.jpg");
   }
 }
 
@@ -616,8 +616,8 @@
     margin-left: auto;
     margin-right: auto;
     background: #2f303a;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../../../images/bg-img/webp/core-bg-full.webp);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../../../images/bg-img/webp/core-bg-full.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../../../images/bg-img/jpg/core-bg-full.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../../../images/bg-img/jpg/core-bg-full.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -626,8 +626,8 @@
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero_menu-container {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../../../images/bg-img/webp/core-bg-full2x.webp);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../../../images/bg-img/webp/core-bg-full2x.webp);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../../../images/bg-img/jpg/core-bg-full2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../../../images/bg-img/jpg/core-bg-full2x.jpg");
   }
 }
 

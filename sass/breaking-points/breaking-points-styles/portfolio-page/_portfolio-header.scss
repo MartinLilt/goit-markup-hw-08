@@ -18,6 +18,10 @@
   @include list;
   padding: 32px 0px 32px 0px;
 
+  & .mr-li {
+    margin-bottom: 0;
+  }
+
   & .mr-li + .mr-li {
     margin-left: 50px;
   }
@@ -107,6 +111,15 @@
 .mr-li:nth-child(2) .header-nav {
   color: $accent-color;
 }
+.mr-li {
+  @media screen and (min-width: 768px) {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
+}
 .header-flex-contact {
   @include display;
   @include list;
@@ -145,7 +158,6 @@
 
   @media screen and (min-width: 768px) {
     @include display;
-    margin-bottom: 10px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -156,7 +168,7 @@
     padding-bottom: 32px;
   }
 }
-.mr-li:nth-child(2) .header-contact {
+.mr-li:nth-child(2) {
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
   }

@@ -13,6 +13,13 @@
     justify-content: center;
   }
 }
+.portfolio_works-button_box:nth-child(n + 4) {
+  margin-bottom: 0;
+  margin-right: 0;
+}
+.portfolio_works-button_box:nth-child(4) {
+  margin-right: 8px;
+}
 .portfolio_works-button_box {
   margin-bottom: 15px;
   margin-right: 8px;
