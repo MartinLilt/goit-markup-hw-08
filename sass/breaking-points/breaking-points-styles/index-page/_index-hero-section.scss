@@ -1,10 +1,5 @@
 .hero_menu-container {
   @media screen and (min-width: 320px) {
-    padding-top: 118px;
-    padding-bottom: 118px;
-  }
-
-  @media screen and (min-width: 320px) {
     margin-left: auto;
     margin-right: auto;
     background: $background-second-cl;
@@ -60,11 +55,6 @@
   }
 }
 .hero_menu-container {
-  @media screen and (min-width: 1200px) {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
-
   @media screen and (min-width: 1200px) {
     margin-left: auto;
     margin-right: auto;

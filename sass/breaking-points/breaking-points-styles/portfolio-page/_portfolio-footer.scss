@@ -33,9 +33,14 @@
     text-align: start;
   }
 }
+.footer_social-links {
+  margin-bottom: 10px;
+}
+.footer_social-links:nth-child(2) {
+  margin-bottom: 0;
+}
 .footer-links {
   @include list($margin: none);
-  margin-bottom: 10px;
   display: block;
 }
 .footer-links {
